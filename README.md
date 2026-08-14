@@ -1,5 +1,5 @@
 
-⚡ EV Charging Station Occupancy Prediction
+#⚡ EV Charging Station Occupancy Prediction
 
 <p align="center"> <b>End-to-End Machine Learning Project for Predicting EV Charging Station Occupancy</b> </p>
 
