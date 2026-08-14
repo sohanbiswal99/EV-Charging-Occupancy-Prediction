@@ -1,45 +1,58 @@
-⚡ EV Charging Station Occupancy Prediction
+⚡ ML Project — EV Charging Station Occupancy Prediction
 
-<p align="center"> <strong>Predicting EV Charging Station Occupancy with Machine Learning</strong> <br> <sub>An end-to-end ML project with an interactive Streamlit deployment</sub> </p>
+Predicting EV charging station occupancy using Machine Learning to support smarter charging infrastructure.
 
-<p align="center">
+🎯 Project Overview
 
-Python · Pandas · Scikit-learn · Machine Learning · Streamlit
+This project uses EV charging station data to predict Occupancy and provide an interactive prediction system through Streamlit.
 
-</p>
+🔄 ML Workflow
 
-🚗 Project Overview
+Data → EDA → Preprocessing → Feature Selection → Model Training → Evaluation → Deployment
 
-As Electric Vehicle adoption continues to grow, efficiently managing charging infrastructure is becoming increasingly important.
+🧠 Machine Learning Model
+Model	Purpose
+🌳 Decision Tree Classifier	Occupancy Prediction
 
-This project uses Machine Learning to predict EV charging station occupancy, providing a practical approach to understanding station availability and utilization.
+The trained model is saved using Pickle for deployment.
 
-🔄 ML Pipeline
-
-Data → Preprocessing → EDA → Feature Selection → Model Training → Evaluation → Deployment
-
-🤖 Model
-
-Algorithm: 🌳 Decision Tree Classifier
-
-The trained model is serialized and stored as:
-
-ev_charging_occupancy_model.pkl
-🛠️ Tech Stack
-Category	Tools
-Language	🐍 Python
-Data Processing	📊 Pandas · NumPy
-Visualization	📈 Matplotlib · Seaborn
-Machine Learning	🤖 Scikit-learn
-Deployment	🌐 Streamlit
-Model Serialization	💾 Pickle
-Version Control	🧑‍💻 Git · GitHub
-✨ Key Features
-🧹 Data preprocessing & cleaning
-🔍 Exploratory Data Analysis
+🔍 Key Analysis
+📈 Exploratory Data Analysis
+🧹 Data cleaning & preprocessing
 🎯 Feature selection
-🌳 ML-based occupancy prediction
+🤖 Classification modeling
 📊 Model evaluation
-💾 Trained model serialization
-🌐 Interactive Streamlit application
+💾 Model saving/loading
+🌐 Interactive Streamlit deployment
+⭐ Key Feature
 
+The project converts a trained Machine Learning model into an interactive Streamlit application, allowing users to provide input values and receive an EV charging station occupancy prediction.
+
+🛠️ Tech Stack
+
+Python • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn • Pickle • Streamlit
+
+📂 Project Files
+EV Charging Station Occupancy Prediction/
+│
+├── EV_Charging_Station_Occupancy_Prediction.ipynb
+├── ev_charging_occupancy_model.pkl
+├── ev_occupancy_app.py
+├── requirements.txt
+└── README.md
+🚀 Run the Application
+pip install -r requirements.txt
+streamlit run ev_occupancy_app.py
+🔗 Project Links
+
+💻 GitHub: [Add GitHub Repository Link]
+
+🌐 Live Demo: [Add Streamlit App Link]
+
+🚀 Future Scope
+
+Real-time charging data • Occupancy forecasting • Live station monitoring • API integration • Interactive dashboard • Cloud deployment
+
+💡 Project Goal
+
+Improve EV charging station utilization and support smarter, data-driven charging infrastructure decisions.
